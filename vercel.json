@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/ping", "destination": "/api/ping" },
+    { "source": "/down", "destination": "/api/down" },
+    { "source": "/up", "destination": "/api/up" },
+    { "source": "/info", "destination": "/api/info" }
+  ]
+}
